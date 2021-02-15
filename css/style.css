@@ -386,18 +386,7 @@ p {
   letter-spacing: 4px;
   border-bottom: 2px solid #1e1e1e;
 }
-#contact-btn button {
-  color: #ffffff;
-  font-size: 1rem;
-  font-family: calibri;
-  width: 150px;
-  height: 40px;
-  margin: 10px;
-  background-color: #1e1e1e;
-  border: none;
-  outline: none;
-  box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.2);
-}
+
 footer {
   color: #efbaae;
   text-align: center;
@@ -450,9 +439,6 @@ footer {
 
   .p-container {
     width: 100%;
-  }
-  .contact__list {
-    grid-template-columns: auto auto;
   }
 }
 @media (max-width: 900px) {
@@ -524,10 +510,16 @@ footer {
   .contact {
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 400px;
+  }
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
   }
   .contact__list {
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    font-size: 1rem;
   }
 }
 
@@ -551,6 +543,20 @@ footer {
   .social {
     left: 30px;
     transform: translateX(-10px);
+  }
+  .contact {
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .contact__list {
+    grid-template-columns: auto;
+    gap: 2rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 400px) {
